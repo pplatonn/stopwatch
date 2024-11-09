@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    padding-top: 50px;
+    background-color: hsl(255, 10%, 92%);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.displayTime {
+    font-size: 6rem;
+    margin-bottom: 30px;
+}
+
+.controlBtns {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+button {
+    font-size: 4rem;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+button:first-child {
+    background-color: #61d403;
+}
+
+button:first-child:hover {
+    background-color: #54b404;
+    scale: 1.04;
+    cursor: pointer;
+}
+
+button:last-child {
+    background-color: #3bd6f1;
+}
+
+button:last-child:hover {
+    background-color: #26acc4;
+    scale: 1.04;
+    cursor: pointer;
+}
+
+button:nth-child(2n) {
+    background-color: #f13b3b;
+}
+
+button:nth-child(2n):hover {
+    background-color: #c72525;
+    scale: 1.04;
+    cursor: pointer;
+}
